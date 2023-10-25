@@ -1,7 +1,7 @@
 # Python Programming
 Basic Tutorial for Python Programming
 
-def delta_load_app(dataset,config:dict):
+
     try:
         # Extracting information from configuration
         # config = get_config(dataset,"delta_load")
@@ -275,4 +275,5 @@ def delta_load_app(dataset,config:dict):
         )
         raise Exception(f"Error: {e}")
 
+    
     
